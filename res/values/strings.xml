@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Call Your Folks</string>
+	<string name="hello">Welcome to call your folks! We\'ll remind you when you haven\'t talked to contacts in a while.</string>
+	<string name="currentfolks"><b>Current reminders:</b></string>
+	<string name="tap_to_edit"><i>(Tap a name to edit)</i></string>
+	<string name="folkheader">Choose how frequently you would like to talk to {CONTACT} on the phone:</string>
+	<string name="every">Every</string>
+	<string name="days">days</string>
+	<string name="add_new_reminder">Add a new reminder!</string>
+	<string name="save">Save</string>
+	<string name="delete">Delete</string>
+	<string name="create_new">Create a new reminder:</string>
+	<string name="landing_welcome_header">Welcome to Call Your Folks!</string>
+	<string name="landing_welcome_text">We\'ll remind you when you should catch up with your contacts. Add a new reminder or edit a current reminder below.</string>
+	<string name="hide_welcome_text"><i>(Finished reading? Tap the text above to hide it.)</i></string>
+</resources>

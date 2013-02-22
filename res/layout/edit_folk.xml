@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<include android:id="@+id/header" layout="@layout/header" />
+	
+	<LinearLayout
+		android:id="@+id/content"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="vertical"
+    	android:paddingLeft="20dp"
+    	android:paddingRight="20dp"
+    	android:layout_marginTop="20dp"
+    	android:layout_below="@id/header">
+		
+		<TextView 
+			android:id="@+id/create_new_header"
+		    android:text="@string/create_new"
+		    style="@style/h2"
+		/>
+		
+		<TextView 
+			android:id="@+id/folk_header"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		/>
+		
+		<ImageView
+			style="@style/hr"
+			android:layout_marginBottom="10dp"
+		 />
+			    
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:id="@+id/seekbarvalue"
+			android:text="Choose a frequency..."
+			android:textSize="25sp"
+		/>
+		<SeekBar
+			android:id="@+id/frequency_slider"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:max="11"
+		    android:progress="0"
+		    android:secondaryProgress="0"
+		    android:paddingLeft="20dp"
+		    android:paddingRight="20dp"
+		    android:layout_marginTop="10dp"
+	    />
+	    
+	    <ImageView
+	    	android:src="@drawable/dash_line"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="4dp"
+	    	android:layout_marginTop="1dp"
+	    	android:paddingLeft="20dp"
+		    android:paddingRight="20dp"
+		    android:scaleType="fitXY"
+	    />
+	    
+	    <RelativeLayout
+	    	android:id="@+id/seek_scale"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:layout_marginTop="5dp"
+	    	android:paddingLeft="20dp"
+		    android:paddingRight="20dp">
+	    	
+	    	<ImageView
+	    		android:src="@drawable/seek_scale_d"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="15dp"
+	    	/>
+	    	
+	    	<ImageView
+	    		android:src="@drawable/seek_scale_w"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_centerHorizontal="true"
+	    	/>
+	    	
+	    	<ImageView
+	    		android:src="@drawable/seek_scale_m"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_alignParentRight="true"
+	    		android:layout_marginRight="15dp"
+	    	/>
+	    	
+	    </RelativeLayout>
+	    
+	   <ImageView style="@style/hr" />
+		
+	</LinearLayout>
+	
+	<Button
+		android:id="@+id/save"
+		android:text="@string/save"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="20dp"
+		android:layout_marginRight="20dp"
+    	android:layout_marginLeft="20dp"
+	/>
+	
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Used in all cases where the phrase "talked" (past) occurs -->
+    <string-array name="talkedVerbs">
+    	<item>called</item>
+    	<item>chatted</item>
+        <item>checked-in</item>
+        <item>chewed-the-fat</item>
+        <item>chit-chatted</item>
+        <item>conversed</item>
+        <item>dropped-a-line</item>
+        <item>gave-a-ring</item>
+        <item>high-fived</item>
+        <item>holla\'d</item>
+        <item>said \'hey\'</item>
+        <item>shot-the-breeze</item>
+        <item>talked</item>
+    </string-array>
+    
+    <!-- Used in all cases where the phrase "talk" (present) occurs -->
+    <string-array name="talkVerbs">
+    	<item>call</item>
+    	<item>chat</item>
+        <item>check-in</item>
+        <item>chew-the-fat</item>
+        <item>chit-chat</item>
+        <item>converse</item>
+        <item>drop-a-line</item>
+        <item>give-a-ring</item>
+        <item>high-five</item>
+        <item>holla</item>
+        <item>say \'hey\'</item>
+        <item>shoot-the-breeze</item>
+        <item>talk</item>
+    </string-array>
+</resources>
